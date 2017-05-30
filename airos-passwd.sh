@@ -16,4 +16,4 @@ echo users.1.password=$NEW_PWD >> /tmp/system.cfg
 echo users.1.name=compunet >> /tmp/system.cfg
 # save all changes and roboot the device
 cfgmtd -w -p /etc
-reboot
+#reboot
